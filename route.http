@@ -1,0 +1,38 @@
+POST http://localhost:3333/api/auth/
+Content-Type: application/json
+{
+"name":"graca chiconela",
+"email":"graca78@gmail.com",
+"password":"102600junior",
+"passwordConfirmation":"102600junior"}
+
+###
+POST http://localhost:3333/api/auth/login
+Content-Type: application/json
+{
+
+"email":"graca78@gmail.com",
+"password":"102600junior",
+}
+
+
+
+
+###
+
+GET  http://localhost:3333/api/user/
+
+###
+
+GET  http://localhost:3333/api/user/66a39061c100fb9bc6aafd69
+
+
+
+
+###
+
+GET  http://localhost:3333/api/user/66a39061c100fb9bc6aafd6
+
+
+
+
